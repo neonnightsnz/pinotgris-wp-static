@@ -1,0 +1,2 @@
+# pinotgris-wp-static
+
