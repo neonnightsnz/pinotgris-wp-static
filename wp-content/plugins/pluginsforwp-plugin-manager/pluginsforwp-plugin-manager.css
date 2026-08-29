@@ -1,0 +1,268 @@
+.p4w-updater-container {
+    background-color: white;
+}
+
+#p4w-updater {
+    margin: 10px 15px 0 0;
+}
+
+.p4w-updater-tabs {
+    margin: 0 !important;
+}
+
+.p4w-updater-tab-contents {
+    padding: 15px;
+}
+
+.p4w-product-list-container {
+    max-height: 2550px;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.pntDashboard {
+    margin-bottom: 50px;
+    border: 1px solid #c3c3c3;
+}
+
+.pntDashboard .panel {
+    margin-bottom: 0;
+    box-shadow: none;
+}
+
+.panel-heading {
+    background-color: #afafaf4d;
+    font-weight: bold;
+    border: none;
+    border-bottom: 1px solid #c3c3c3;
+    border-radius: 0;
+}
+
+.panel-heading .column {
+    width: 50%;
+}
+
+.panel-heading input {
+    max-width: 100%;
+}
+
+.p4w-product-list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.scroller {
+    height: 400px;
+    overflow: auto;
+}
+
+.pfwpItemDesc {
+    word-break: break-word;
+}
+
+.p4w-product-version {
+    font-weight: bold;
+}
+
+.p4w-updater-loader {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.p4w-updater-form-buttons {
+    margin-top: 20px;
+}
+
+.p4w-updater-form-settings {
+    padding: 5px 0 5px 0;
+    margin: 5px 0 5px 0;
+}
+
+.p4w-product-list li {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pfwpItemInner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+    box-shadow: 3px 3px 3px 0 rgba(16, 16, 16, 0.07);
+}
+
+.pfwpItemInner:hover {
+    box-shadow: 3px 3px 3px 0 rgba(164, 141, 226, 0.4);
+}
+
+.pfwpItemDetails {
+    width: 100%;
+}
+
+.pfwpItemDetails .p4w-link-large {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.pfwpItemDetails p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+.pfwpCTABtns {
+    margin-top: auto;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.numberItemSum {
+    background-color: #fafafa;
+    padding: 10px;
+    border-top: 1px solid #c3c3c3;
+    text-align: right;
+}
+
+.p4w-modal-large.is-active {
+    z-index: 99999;
+}
+
+.p4w-modal-large .animation-content {
+    width: 90%;
+    max-width: 1125px !important;
+    height: 85vh;
+    border: 3px solid #ff3960;
+    position: relative;
+    border-radius: 6px;
+}
+
+.p4w-modal-large .modal-card-head {
+    padding: 10px;
+    background-color: #FF3860;
+    border-radius: 0;
+}
+
+.p4w-modal-large .modal-card {
+    width: 100%;
+    height: 100%;
+}
+
+.p4w-modal-large .modal-card-body {
+    overflow: hidden;
+    padding: 0;
+}
+
+.p4w-modal-large .modal-card-title {
+    font-size: 14px;
+    line-height: 1;
+    padding-right: 25px;
+    flex-shrink: unset;
+    color: white;
+}
+
+.p4w-modal-large .modal-close {
+    display: none;
+}
+
+a.p4w-link-small {
+    font-size: 6px !important;
+}
+
+.UDTab .flex-section-50 {
+    padding: 30px;
+}
+
+.UDTab img {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (min-width: 768px) {
+    .flex-section {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .flex-section-50 {
+        width: 50%;
+    }
+
+    .p4w-product-list li {
+        width: 50%;
+    }
+
+    .UDTab .flex-section {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .UDTab img:hover {
+        transform: scale(1.02);
+        transition: all 0.2s ease;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .p4w-product-list li {
+        width: 33.3%;
+    }
+}
+
+.itemVers {
+    padding-top: 20px;
+}
+
+.p4w-button {
+    background-color: #f14668 !important;
+    color: white !important;
+    margin-right: 5px !important;
+}
+
+.pz-button {
+    background-color: #f99e06 !important;
+    color: black !important;
+    margin-right: 5px !important;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+.p4w-modal-large-pz p.modal-card-title {
+    color: black !important;
+}
+
+.p4w-modal-large-pz .animation-content {
+    border: 3px solid #f99e06;
+    position: relative;
+    border-radius: 6px;
+}
+
+.p4w-modal-large-pz .modal-card-head {
+    padding: 10px;
+    background-color: #f99e06;
+    border-radius: 0;
+}
+
+.p4w-modal-pz p.modal-card-title {
+    color: black !important;
+}
+
+.p4w-modal-pz .animation-content {
+    border: 3px solid #f99e06;
+    position: relative;
+    border-radius: 6px;
+}
+
+.p4w-modal-pz .modal-card-head {
+    padding: 10px;
+    background-color: #f99e06;
+    border-radius: 0;
+}

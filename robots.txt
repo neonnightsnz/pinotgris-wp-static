@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+Sitemap: https://woocommerce-1413591-5262002.cloudwaysapps.com/sitemap_index.xml
